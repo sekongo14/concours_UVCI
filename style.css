@@ -1,0 +1,154 @@
+/* *{
+    border: 1px solid red;
+   
+} */
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    /* padding: 5px; */
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffffca;
+}
+
+.logo{
+    margin-left: 5%;
+    margin-right: 15%;
+}
+.logo img{
+    width: 120px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10%;
+    width: 50%;
+    
+}
+
+nav a{
+    text-decoration: none;
+    
+    color: #000;
+    margin: 5%;
+    
+}
+nav a:hover{
+    background-color: orange;
+    transform: scale(1.3);
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(image/elephant3.jpeg) center;
+    object-fit: cover;
+    background-size: cover;
+    padding: 100px;
+    height: 50%;
+    padding-top: 25%;
+    
+}
+.cocan h4{
+    color: orange;
+}
+.cocan h1{
+    color: #fff;
+}
+header h5{
+    font-size: 25px;
+}
+
+header .cocan{
+    display: flex;
+    font-size: 20px;
+    font-family: DM Serif Display;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cocan div{
+    display: flex;
+}
+.cocan img{
+    margin-top: 30px;
+}
+header .row{
+    display: flex;
+    font-family: DM Serif Display;
+    margin-left: 100px;
+}
+
+header .row .row1 {
+    margin-right: 50px;
+}
+
+header .row .row2 {
+    margin-left: 100px;
+}
+header button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background: linear-gradient(45deg, #ff8000, #f3f3f3, #80ff00);
+    border: none;
+    font-family:  DM Serif Display;
+
+}
+.overflow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+em{
+    color: green;
+}
+/* 
+main */
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sect1{
+    margin:15px 15px 15px 15px;
+    background-color: rgba(0, 128, 0, 0.782);
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+}
+
+.droite img{
+    width: 400px;
+}
+.droite{
+    margin-left: 15%;
+}
+.left{
+    margin-left: 10%;
+    background-color: orange;
+    
+}
+
+.left:hover{
+    transform: scale(1.3);
+}
