@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@1&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@1&family=PT+Sans+Narrow&display=swap');
 /* *{
     border: 1px solid red;
    
@@ -30,6 +32,14 @@ body{
     width: 120px;
 }
 
+.poeme{
+    font-family: PT Sans Narrow;
+}
+
+.hote{
+    color: green;
+    font-family: Dancing Script;
+}
 nav{
     display: flex;
     align-items: center;
@@ -44,12 +54,12 @@ nav{
 nav a{
     text-decoration: none;
     
-    color: #000;
+    color: green;
     margin: 5%;
     
 }
 nav a:hover{
-    background-color: orange;
+    color: orange;
     transform: scale(1.3);
 }
 
@@ -58,7 +68,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(image/pelouse.jpeg) center;
+    background: url(image/foot&.jpeg) center;
     object-fit: cover;
     background-size: cover;
     padding: 100px;
@@ -137,7 +147,7 @@ main{
     background: url(image/elephant3.jpeg) center;
     background-repeat: no-repeat;
    background-size: cover;
-   width: 100%;
+   /* width: 100%; */
 }
 
 .over{
@@ -214,9 +224,6 @@ main{
     align-items: center;
     justify-content: space-around;
     width: 93%;
-    
-    
-
 }
 
 
@@ -272,6 +279,29 @@ main{
     flex-direction: column;
     align-items: center;
     margin-right: 30px;
+}
+.desc a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ville_desc a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 5px;
+}
+.ville_desc a:hover{
+    transform: scale(1.1);
+}
+
+.ville_desc p{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .vert{
@@ -359,7 +389,9 @@ footer{
     border-radius: 5px;
 }
 
-
+.message button{
+    width: 60px;
+}
 .energie{
     margin-right: 10%;
 }
@@ -377,4 +409,192 @@ footer{
 
 .part img{
     margin: 15px;
+}
+
+
+
+    .info1 a:hover{
+        color: orange;
+    }
+/* 
+responsive */
+
+@media screen and (max-width: 820px) {
+    /* Styles pour les écrans de largeur maximale de 768px */
+    .overflow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin-top: 40%;
+    }
+    .container{
+        /* padding: 5px; */
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+       width: 100%;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+       
+  }
+
+  .card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .containt{
+    background: url(image/elephant3.jpeg) center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+}
+
+.over{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background-color: #ffffffaf;
+    width: 100%;
+
+}
+
+
+.hosp{
+    width: 300px;
+}
+
+.sect1{
+    margin:15px 15px 15px 15px;
+    background-color: #ffffff61;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ville{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 100%;
+}
+.ville1{
+    display: flex;
+    margin-top: 20%;
+    flex-direction: column;
+}
+
+.bk_yakro{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.Ko_Abj{
+    font-display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+}
+
+.president{
+    margin-top: 15%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.droite img{
+    width: 300px;
+}
+
+.left video{
+    height: 180px;
+}
+
+
+
+
+.description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.president div img{
+    width: 300px;
+}
+
+
+
+footer{
+    background: url(image/images1.jpeg)center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+}
+
+.foot1{
+   
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    
+}
+
+
+.message input{
+    margin-bottom: 13px;
+    border-radius: 5px;
+    width: 140px;
+    height: 25px;
+}
+.message textarea{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 140px;
+}
+
+.partenaire{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot2{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.part img{
+    margin: 1px;
+    width: 20px;
+}
 }
