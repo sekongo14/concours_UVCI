@@ -1,0 +1,316 @@
+/* *{
+    border: 1px solid red;
+   
+} */
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    /* padding: 5px; */
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+.logo{
+    margin-left: 5%;
+    margin-right: 15%;
+    transition: 0.5s ease-in-out;
+    background-color: orange;
+}
+
+.logo{
+    margin-left: 5%;
+    margin-right: 15%;
+    transition: 0.5s ease-in-out;
+    background-color: orange;
+}
+
+.logo:hover {
+    transform: rotate(360deg); /* Faites pivoter de 360 degrés */
+}
+
+.logo img{
+    width: 120px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10%;
+    width: 50%;
+   
+    
+}
+
+
+nav a{
+    text-decoration: none;
+    
+    color: green;
+    margin: 5%;
+    
+}
+nav a:hover{
+    color: orange;
+    transform: scale(1.3);
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(image/co.jpeg) center;
+    object-fit: cover;
+    background-size: cover;
+    padding: 100px;
+    height: 50%;
+    padding-top: 25%;
+    
+}
+
+header .cocan{
+    display: flex;
+    font-size: 20px;
+    font-family: DM Serif Display;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cocan div{
+    display: flex;
+}
+.cocan img{
+    margin-top: 30px;
+}
+
+header button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background: linear-gradient(45deg, #ff8000, #f3f3f3, #80ff00);
+    border: none;
+    font-family:  DM Serif Display;
+
+}
+
+.overflow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 15px;
+}
+
+.sect1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.card{
+    display: flex;
+}
+
+.left{
+    padding: 15px;
+    background-color: green;
+    margin-left: 15px;
+    box-shadow: 0 0 2px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.left:hover{
+    transform: scale(0.99);
+}
+
+.president{
+    margin-top: 15%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    padding: 5px;
+    background-color: orange;
+}
+
+
+/* footer */
+footer{
+    background: url(image/images1.jpeg)center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.foot1{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.info1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.info1 a{
+    text-decoration: none;
+    color: #fff;
+    transform: rotate(1.2);
+}
+
+.foot2{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+}
+
+.message input{
+    margin-bottom: 13px;
+    border-radius: 5px;
+    width: 260px;
+    height: 25px;
+}
+.message textarea{
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.message button{
+    width: 60px;
+}
+.energie{
+    margin-right: 10%;
+}
+
+.partenaire{
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.part{
+    display: flex;
+}
+
+.part img{
+    margin: 15px;
+}
+
+
+
+@media screen and (max-width: 820px) {
+    /* Styles pour les écrans de largeur maximale de 768px */
+    .overflow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin-top: 40%;
+    }
+    .container{
+        /* padding: 5px; */
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+       width: 100%;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+       
+  }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .president{
+    margin-top: 15%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer{
+    background: url(image/images1.jpeg)center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+}
+
+.foot1{
+   
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    
+}
+
+
+.message input{
+    margin-bottom: 13px;
+    border-radius: 5px;
+    width: 140px;
+    height: 25px;
+}
+.message textarea{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 140px;
+}
+
+.partenaire{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot2{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.part img{
+    margin: 1px;
+    width: 20px;
+}
+}
